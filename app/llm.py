@@ -5,11 +5,12 @@ LLM structured output module for formatting transcripts.
 Provides mode-specific prompts and OpenAI API integration for
 structured output generation.
 """
-
+from dotenv import load_dotenv
 import os
 import openai
 from typing import Optional, Dict
 
+load_dotenv() 
 
 # API key from environment variable
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
