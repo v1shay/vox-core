@@ -1,0 +1,5 @@
+sounddevice
+numpy
+scipy
+openai
+git+https://github.com/openai/whisper.git
