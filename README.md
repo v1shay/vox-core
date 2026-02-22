@@ -1,4 +1,4 @@
-# vox-core
+# vox-agent
 > A real-time hardware-integrated audio intelligence system built in Python, transforming live speech from devices like AirPods or Mac microphones into structured output using CoreAudio, Whisper, and OpenAI API integration.
 
 ---
@@ -48,7 +48,7 @@ The system runs entirely from the command line and requires no frontend or backe
 
 ## Project Structure
 ```text
-vox-core/
+vox-agent/
 ├── app/
 │   ├── stream.py
 │   ├── transcribe.py
@@ -58,3 +58,4 @@ vox-core/
 ├── requirements.txt
 ├── .env
 └── README.md
+
